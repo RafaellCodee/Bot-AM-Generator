@@ -1,0 +1,29 @@
+{
+  "name": "RafaelCode",
+  "version": "1.0.0",
+  "description": "RafaelCode, Simple Bot WhatsApp By RafaelXD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "RafaelXD",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "npm:rafael-bails@1.0.4",
+    "archiver": "^8.0.0",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.6.8",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "file-type": "^19.0.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "jimp": "^1.6.1",
+    "node-webpmux": "^3.2.1",
+    "path": "^0.12.7",
+    "pino": "^7.0.5",
+    "qrcode": "^1.5.4",
+    "r-security": "^1.0.0"
+  },
+  "type": "module"
+}
