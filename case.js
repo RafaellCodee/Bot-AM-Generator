@@ -49,7 +49,7 @@ async function sendRequiredGroupButton(Rafael, m, prefix = '.', command = 'menu'
               text:
 `❌ Fitur ini hanya dapat digunakan oleh anggota grup${groupName}.
 
-Silakan bergabung ke grup WhatsApp terlebih dahulu melalui tombol di bawah.
+Silakan bergabung ke grup WhatsApp dan Channel Whatsapp terlebih dahulu melalui tombol di bawah.
 
 Setelah bergabung, ulangi perintah *${prefix}${command}*.`
             },
@@ -347,8 +347,8 @@ return m.reply(
                       name: 'cta_url',
                       buttonParamsJson: JSON.stringify({
                         display_text: '💻 Source Code',
-                        url: 'https://github.com',
-                        merchant_url: 'https://github.com'
+                        url: 'https://github.com/RafaellCodee/Bot-AM-Generator',
+                        merchant_url: 'https://github.com/RafaellCodee/Bot-AM-Generator'
                       })
                     }
                   ]
