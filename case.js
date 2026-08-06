@@ -65,7 +65,15 @@ Setelah bergabung, ulangi perintah *${prefix}${command}*.`
                     url: groupLink,
                     merchant_url: groupLink
                   })
-                }
+                },
+                {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'Gabung Channel WhatsApp',
+                    url: "https://whatsapp.com/channel/0029VbAjoElLI8YVzXxn7H0j",
+                    merchant_url: "https://whatsapp.com/channel/0029VbAjoElLI8YVzXxn7H0j"
+                  })
+                }                
               ]
             }
           }
